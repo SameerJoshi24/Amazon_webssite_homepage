@@ -1,0 +1,420 @@
+body {
+    background-color: #E3E6E6;
+}
+/* first navbar  */
+.navbar1 {
+    background-color: #131921;
+    height: 60px;
+    border: none;
+    border-radius: 0%;
+} 
+#brandlogo {
+    height: 50px;
+    margin-top: -10px;
+}
+.location{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -8px;
+}
+#loc {
+    color: white;
+}
+.btnwhite{
+    background-color: white;
+    color: gray;
+    height: 40px;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+#searchbar{
+    margin-top: 9px;
+    width: 1250px; 
+    font-size: 14px; 
+    margin-left: -14px;   
+}
+.searchbar1{
+    height: 40px;
+}
+.searchbutton {
+    height: 40px;
+    background-color: #febd69;
+}
+#searchbutton {
+    width: 40px; 
+    border-radius: 3px;
+}
+.searchbutton1{
+    height: 40px; 
+    background-color: #febd69;
+   
+}
+.btnlan{
+    background-color: #131921;
+    color: white;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 10px;  
+}
+.btn1{
+    background-color: #131921;
+    color: white;
+    margin-top: 4px;
+}
+
+/* second navbar  */
+.navbar2 {
+    background-color:#232f3e;
+    height: 30px;
+    border: none;
+    margin-top: -20px;
+    border-radius: 0%;
+}
+#btns { 
+    color: white; 
+}
+/* Carousel  */
+#myCarousel {
+    margin-top: -20px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+#carouselimg {
+    height: 300px;
+}
+
+#block {
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+
+} 
+/* First block  */
+.contentblock1 {
+    height: 450px;
+    width: 22.5%;
+    margin-left: 1.8%;
+    margin-top: 2%;
+    float: left;
+    background-color: white;
+}
+.contentblockheading{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 2%;
+}
+.contentblock1img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 70%;
+    cursor: pointer;
+}
+.contentblock1link {
+    margin-left: 5%;
+    margin-top: 7%;
+    text-decoration:none ;
+}
+
+/* Second block  */
+.contentblock2 {
+    height: 450px;
+    width: 22.5%;
+    margin-left: 1.8%;
+    margin-top: 2%;
+    float: left;
+    background-color: white;
+    
+}
+.contentblock2img {
+    margin-left: 9%;
+    margin-top: 5%;
+    height: 30%;
+    width: 80%;
+    cursor: pointer;
+    
+}
+figcaption {
+    margin-left: 9%;
+    cursor: pointer; 
+}
+
+.backtotop {
+    width: 100%;
+    background-color: #37475a;
+    border-radius: 0%;
+    margin-top: 20px;
+}
+#backtotop {
+    color: gray;
+
+}
+
+/* Footer  */
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #232f3e;
+}
+.firstpart {
+    height: 80%;
+}
+.firstpart a {
+    color: rgb(192, 190, 190);
+    text-decoration: none;
+    display: block;
+    line-height: 1.5;
+}
+.firstpart h3 {
+    color: #f3f3f3;
+    font-size: 17px;
+    font-weight: bold;
+}
+.firstrow {
+    position: absolute;
+    margin-left: 25%;
+}
+.Secondrow {
+    position: absolute;
+    margin-left: 36%;
+}
+.thirdrow {
+    position: absolute;
+    margin-left: 47%;
+}
+.fourthrow {
+    position: absolute;
+    margin-left: 62%;
+}
+#secondpart {
+    height: 20%;
+    background-color: #131A22;
+}
+.brand2 {
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 3px;
+    color: white;
+}
+.sociallinks {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.footerlogo {
+    height: 30px;
+    float: inline-end;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+/* Media quaries  */
+@media screen and (max-width: 1906px ) {
+    body {
+        background-color: rgb(241, 160, 122);
+    }
+
+}
+@media screen and (max-width: 1800px ) {
+    body {
+        background-color: rgb(122, 122, 241);
+    }
+}
+
+@media screen and (max-width: 1600px ) {
+    body {
+        background-color: rgb(160, 160, 245);
+    }
+}
+
+@media screen and (max-width: 1400px ) {
+    body {
+        background-color: rgb(218, 160, 245);
+    }
+}
+@media screen and (max-width: 1350px ) {
+    body {
+        background-color: rgb(218, 160, 245);
+    }
+    .contentblock1 {
+        width: 30%;
+    }
+    .contentblock2 {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1330px ) {
+    body {
+        background-color: rgb(245, 160, 186);
+    }
+    .secondrow{
+        margin-left: 37%;
+    }
+    .thirdrow {
+        margin-left: 50%;
+    }
+    .fourthrow {
+        margin-left: 68%;
+    } 
+
+}
+@media screen and (max-width: 1280px ) {
+    body {
+        background-color: rgb(245, 160, 186);
+    }
+    .thirdrow {
+        margin-left: 48%;
+    }
+    .fourthrow {
+        margin-left: 65%;
+    } 
+
+}
+@media screen and (max-width: 1230px ) {
+    body {
+        background-color: rgb(245, 160, 186);
+    }
+    .secondrow{
+        margin-left: 38%;
+    }
+    .thirdrow {
+        margin-left: 50%;
+    }
+    .fourthrow {
+        margin-left: 67%;
+    } 
+}
+@media screen and (max-width: 1200px ) {
+    body {
+        background-color: rgb(245, 160, 186);
+    }
+}
+@media screen and (max-width: 1160px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+    .secondrow{
+        margin-left: 39%;
+    }
+    .thirdrow {
+        margin-left: 52%;
+    }
+    .fourthrow {
+        margin-left: 70%;
+    } 
+}
+
+/* mobile screen  */
+@media screen and (max-width: 1200px ) {
+    body {
+        background-color: rgb(245, 160, 186);    
+    }
+    .navbar1 {
+        width:131%;
+    }
+    .navbar2 {
+        width:131%;
+    }
+    #myCarousel {
+        width: 131%;
+        margin-left: 0%;
+    }
+    #searchbar {
+        width: 620px;
+    }
+    #block {
+        width: 127%;
+        margin-left: 0%;
+    }
+    .contentblock1 {
+        width: 40%;
+        margin-left: 8%;
+    }
+    .contentblock2 {
+        width: 40%;
+        margin-left: 8%;
+    }
+    .backtotop {
+        width:131%;
+    }
+    footer {
+        width: 131%;
+    }
+    .firstrow {
+        margin-left: 23%;
+    }
+    .secondrow {
+        margin-left: 39%;
+    }
+    .thirdrow {
+        margin-left: 58%;
+    }
+    .fourthrow {
+        margin-left: 82%;
+    } 
+}
+/* ........  */
+@media screen and (max-width: 1160px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+    .thirdrow {
+        margin-left: 53%;
+    }
+    .fourthrow {
+        margin-left: 72%;
+    } 
+}
+@media screen and (max-width: 1000px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+}
+
+@media screen and (max-width: 800px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+}
+@media screen and (max-width: 500px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+    .firstpart {
+        height: 100%
+    }
+    .firstrow {
+        margin-top: -10px;
+        margin-left: 8%;
+    }
+    .secondrow {
+        margin-left: 56%;
+        margin-top: -10px;
+    }
+    .thirdrow {
+        margin-left: 8%;
+        margin-top: 112px;
+    }
+    .fourthrow {
+        margin-left: 56%;
+        margin-top: 112px;
+    } 
+}
+@media screen and (max-width: 400px ) {
+    body {
+        background-color: rgb(160, 204, 245);
+    }
+}
+
