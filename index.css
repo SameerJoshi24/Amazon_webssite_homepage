@@ -78,6 +78,20 @@ body {
 #btns { 
     color: white; 
 }
+.lightmode {
+    height: 25px;
+    width: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+    border: none;
+    
+}
+.glpicon {
+    font-size: 16px;
+    padding: 2px;
+    margin-left: -6px;
+    color: white;
+}
 /* Carousel  */
 #myCarousel {
     margin-top: -20px;
