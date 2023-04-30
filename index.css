@@ -1,10 +1,18 @@
 body {
-    background-color: #E3E6E6;
-    color: black;
+    background-color: var(--container-color);
+    color:var(--secondary-color)
 }
 .darkmode {
-    background-color: rgba(0, 0, 0, 0.509);
-    color: rgba(55, 54, 54, 0.468);
+    --primary-color:black;
+    --secondary-color:white;
+    --container-color:rgba(0, 0, 0, 0.905);
+    --glyphicon-color:white;
+}
+:root {
+    --primary-color:white;
+    --secondary-color:rgba(0, 0, 0, 0.89);
+    --container-color:#E3E6E6;
+    --glyphicon-color:black;
 }
 /* first navbar  */
 .navbar1 {
@@ -90,7 +98,7 @@ body {
     font-size: 16px;
     padding: 2px;
     margin-left: -6px;
-    color: white;
+    color: var(--glyphicon-color);
 }
 /* Carousel  */
 #myCarousel {
@@ -116,7 +124,7 @@ body {
     margin-left: 1.8%;
     margin-top: 2%;
     float: left;
-    background-color: white;
+    background-color: var(--primary-color);
 }
 .contentblockheading{
     font-size: x-large;
@@ -143,7 +151,7 @@ body {
     margin-left: 1.8%;
     margin-top: 2%;
     float: left;
-    background-color: white;
+    background-color: var(--primary-color);
     
 }
 .contentblock2img {
@@ -252,9 +260,12 @@ footer {
     }
 }
 
-@media screen and (max-width: 1400px ) {
+@media screen and (max-width: 1440px ) {
     body {
         background-color: rgb(218, 160, 245);
+    }
+    #searchbar {
+        width: 770px;
     }
 }
 @media screen and (max-width: 1350px ) {
