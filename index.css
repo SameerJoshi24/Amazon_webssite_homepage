@@ -27,6 +27,7 @@ body {
     position: absolute;
     z-index: 100;
     backdrop-filter: blur(4px);
+    background-color: #000000c7;
     height: 100%;
     width: 100%;
 }
