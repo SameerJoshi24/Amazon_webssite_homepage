@@ -360,6 +360,10 @@ footer {
     body {
         background-color: rgb(245, 160, 186);
     }
+    #coupon {
+        height: 100%;
+        width: 131%;
+    }
 }
 @media screen and (max-width: 1160px ) {
     body {
