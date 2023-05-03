@@ -29,8 +29,13 @@
                     <img src="https://i.ibb.co/kDdGcWx/Amazon-logo1.png" alt="Amazon-logo-svg" id="brandlogo">
                 </a>
             </div>
-            <ul class="nav navbar-nav location">
-                <li><a href="#" id="loc">Deliver to<p>India</p></a></li>
+            <ul class="nav navbar-nav navigationbar">
+                <li><a href="#" id="loc">
+                    <button class="locbtn" onclick="geolocation()">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <span id="location">Location</span>
+                    </button>
+                </a></li>
                 <li>
                     <div class="dropdown">
                         <button class="btn dropdown-toggle btnwhite" type="button" data-toggle="dropdown">All
@@ -100,6 +105,7 @@
                 <li><a id="btns" href="#">Sell</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li><p id="weather"></p></li>
                 <li><Button class="lightmode darkmodeicon" onclick="changeMode()"><span class="glyphicon glyphicon-adjust glpicon"></span></p></Button></li>
                 <li><a id="btns" href="#">Shop details in electronics</a></li>
             </ul>
