@@ -1,6 +1,6 @@
 // Coupon code 
 function loadcoupon () {
-    document.getElementsById('couponimg').style ='visible';
+    document.getElementById('couponimg').style ='visible';
     // document.getElementsByTagName("body").style.opacity = '0.7'
 
 } 
