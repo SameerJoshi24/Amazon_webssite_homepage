@@ -15,18 +15,16 @@ function changeMode(){
 }
 
 //Geo location
-let x =document.getElementById('out')
-let y =document.getElementById('weather');
-let z =document.getElementById('location')
 function geolocation() {
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(Position)
     } else{
-            x.innerText='Geo not supported'
+            document.getElementById('out').innerText='Geo not supported'
         }
 }
 
 function Position(data){
+    
     let lat = data.coords.latitude;
     let lon = data.coords.longitude;
     // x.innerText = `Latitude is ${lat} and longitude is ${lon}`;
@@ -37,8 +35,8 @@ function Position(data){
     .then((data) => {
         let cityname = data.city.name;
         let temp = data.list[0].temp.day+" °C";
-        y.innerText = `${temp}`;
-        z.innerText =`${cityname}`;
+        document.getElementById('weather').innerText = `${temp}`;
+        document.getElementById('location').innerText =`${cityname}`;
     })
 }
 
