@@ -1,6 +1,6 @@
 // Coupon code 
 function loadcoupon () {
-    document.getElementsById('couponimg').style ='visible';
+    document.getElementById('couponimg');
     // document.getElementsByTagName("body").style.opacity = '0.7'
 
 } 
@@ -15,14 +15,11 @@ function changeMode(){
 }
 
 //Geo location
-let x =document.getElementById('out')
-let y =document.getElementById('weather');
-let z =document.getElementById('location')
 function geolocation() {
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(Position)
     } else{
-            x.innerText='Geo not supported'
+        document.getElementById('out').innerText='Geo not supported'
         }
 }
 
@@ -36,9 +33,9 @@ function Position(data){
     .then((res) => res.json())
     .then((data) => {
         let cityname = data.city.name;
-        let temp = data.list[0].temp.day+" °C";
-        y.innerText = `${temp}`;
-        z.innerText =`${cityname}`;
+        let temp = data.list[0].temp.day+"°C";
+        document.getElementById('weather').innerText = `${temp}`;
+        document.getElementById('location').innerText =`${cityname}`;
     })
 }
 
